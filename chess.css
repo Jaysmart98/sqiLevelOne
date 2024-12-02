@@ -1,0 +1,22 @@
+.black{
+    background-color: rgb(187, 106, 106);
+}
+
+#blackwidow{
+    background-color: rgb(180, 157, 157);
+    background-image: url(./image/girl.webp);
+    background-size: 95%;
+}
+#redwidow{
+    background-color: brown;
+}
+
+#PNG{
+    background-image: url(./image/girl.webp);
+    background-size: 50%;
+}
+
+.soldier{
+    background-image: url(./image/foot\ soldier.jpeg);
+    background-size: 95%;
+}

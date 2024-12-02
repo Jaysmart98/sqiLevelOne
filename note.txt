@@ -1,0 +1,27 @@
+
+1. inner styling
+2. internal styling
+3. external styling
+
+Inner styling is styling the html element within the element using the style attribute.
+Internal styling is styling a html element within the html document using the style tag.
+External styling is styling the html element within the web project using external css file (e.g style.css)
+
+SELECTOR AND DECLARATION BLOCK
+
+SELECTOR is simply a way we can pin-point the html element we are about to style
+DECLARATION BLOCK is simply where the styling takes place
+
+selector{declaration block}
+                |
+                Property:value;
+h1{
+    background-color:red;
+}
+
+
+SELECTORS
+=========
+1. element selector
+2. class selector
+3. id selector
