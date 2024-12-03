@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    height: 2000px;
+}
+
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 80px;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgb(255,255,255);
+    top: 0;
+}
+
+.HeadDiv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.HeadDiv1 a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+}
+
+/* 0px -50px 25pc 100px () */
+
+.HeadDiv1 button{
+    width: 70px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 15px;
+}
+
+
+#btn2{
+    background-color: rgb(0, 0, 0);
+}
+
+#btn2:hover{
+    background-color: grey;
+    color: white;
+}
+
+#OutfitTextContainer{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    align-content: center;
+}
+
+#OutfitTextContainer h1{
+    font-size: 4rem;
+}
+
+#text2{
+    color: rgb(0,118,211);
+    margin: 10px;
+    margin-top: -30px;
+}
+
+#sec1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: -180px;
+}
+
+#outfit2{
+    margin: 10px;
+    margin-top: 100px;
+}
+
+#outfit3{
+    margin-top: 300px;
+}
+
+#outfit4{
+    margin: 20px;
+    margin-top: 400px;
+}
+
+#sec2{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255,253,146);
+    position: relative;
+    z-index: 100;
+    margin-top: -200px;
+    box-shadow: 0px -20px 50px 60px rgba(255, 255, 255, 0.61);
+}
+
+#sec2i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#angledown{
+    margin-left: 5px;
+}
+
+#sec2ii{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+#divConatiner{
+    display: flex;
+}
+#myDiv1{
+    width: 30%;
+    display: flex;
+    position: relative;
+    z-index: 100;
+}
+
+#img1{
+    width: 220px;
+    height: 300px;
+    position: relative;
+    z-index: 100;
+}
+
+#img2{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    z-index: 300;
+    margin-left: 100px;
+}
+
+#img3{
+    margin-top: -50px;
+    width: 180px;
+    height: 250px;
+}
+
+#img4{
+    margin-top: 150px;
+    width: 180px;
+    height: 250px;
+}
+
+#myDivMid{
+    margin-left: 25px;
+    position: relative;
+    z-index: 50;
+}
+
+#myDiv{
+    margin-top: 100px;
+    position: relative;
+    z-index: 50;
+    left: 200px;
+}
+
+#myDiv2{
+    text-align: center;
+    width: 30%;
+    color: rgb(195,25,82);
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+#myDiv2 h1{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+#myDiv2 h4{
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: -30px;
+}
+
+#myDiv2 button{
+   background-color: rgb(230,0,35);
+   color: white;
+   border: none;
+   width: 90px;
+   height: 50px;
+   border-radius: 25px;
+   font-size: 14px;
+   font-weight: 600;
+}
+
+#searchContainer{
+    width: 360px;
+    height: 100px;
+    background-color: white;
+    color: red;
+    border: 1px solid blue;
+    position: absolute;
+    z-index: 500;
+    margin-left: 260px;
+    margin-top: 155px;
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+#searchContainer a{
+    text-decoration: none;
+    color: rgb(110,15,60);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#searchIcon{
+    font-size: 25px;
+    color: black;
+}
